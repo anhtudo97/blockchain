@@ -4,6 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
+    "@commitlint/cli": "^17.1.2",
+    "@commitlint/config-conventional": "^17.1.0",
     "@ethersproject/abi": "^5.7.0",
     "@ethersproject/providers": "^5.7.1",
     "@nomicfoundation/hardhat-chai-matchers": "^1.0.3",
@@ -17,7 +19,9 @@
     "ethers": "^5.7.1",
     "hardhat": "^2.11.2",
     "hardhat-gas-reporter": "^1.0.9",
+    "husky": "^8.0.1",
     "solidity-coverage": "^0.8.2",
     "typechain": "^8.1.0"
-  }
+  },
+  "dependencies": {}
 }
